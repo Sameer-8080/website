@@ -6,7 +6,7 @@ files:
   - source: images/github3.jpg
     destination: /var/www/html
 hooks:
-  Install:
+  AfterInstall:
   - location: ./scripts/script1.sh
     timeout: 300
     runas: root
