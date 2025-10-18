@@ -4,7 +4,7 @@ files:
   - source: index.html
     destination: /var/www/html/
   - source: images/github3.jpg
-    # destination: /var/www/html/images/github3.jpg
+    destination: /var/www/html/images/github3.jpg
 hooks:
   AfterInstall:
   - location: ./scripts/script1.sh
