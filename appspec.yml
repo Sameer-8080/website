@@ -10,3 +10,7 @@ hooks:
   - location: ./scripts/script1.sh
     timeout: 300
     runas: root
+  ApplicationStart:
+  - location: ./scripts/script2.sh
+    timeout: 300
+    runas: root
